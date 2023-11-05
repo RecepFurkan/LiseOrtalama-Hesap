@@ -15,56 +15,21 @@ def ysonort():
 #taktir teşekkür hesap 1. döem lise
    def lis():
       print("belge durumu")
-      if 70<=d1<85:
+      if 80<=d1<90:
          print("1. döenem teşekkür")
-      if 85<=d1:
+      if 90<=d1:
          print("1. dönem taktir")
       else:
          print("1. dönem hiçbirşey yok")
 #taktir teşekkür 2. dönem 
-      if 70<=d2<85:
+      if 80<=d2<90:
          print("2. dönem teşekkür")
-      if 85<=d2:
+      if 90<=d2:
          print("2. dönem taktir")
       else:
          print("2. dönem hiçbirşey yok")
    lis()
 
-
-#taktir teşekkür hesap 1. döem ortokul !!!çalışmıyor!!!
-   def lis():
-      print("belge durumu")
-      if 75<=d1<85:
-         print("1. döenem teşekkür")
-      if 85<=d1:
-         print("1. dönem taktir")
-      else:
-         print("1. dönem hiçbirşey yok")
-#taktir teşekkür 2. dönem ort okul
-   def ort():
-      if 75<=d2<85:
-         print("2. dönem teşekkür")
-      if 85<=d2:
-         print("2. dönem taktir")
-      else:
-         print("2. dönem hiçbirşey yok")
-
-#eyitim düzeyi seç
-#   def snf():
-#      print("sınıf düzeyi seç\norta-lise")
-#     print("1     2")
-#      global snf
-#      snf=int(input()) #kullanıcı değeri snf#
-#karar kısmı
-#   if 0==snf or snf>2:
-#      print("1 yada 2 sayısını girin lütfen")
-#      snf()
-#karar kısmı#
-#  if snf==1:
-#      lis()
-#   else: 
-#      snf==2
-#      ort()
 
 #Karar verme kısmı#
    if noteort>=50:
